@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested HTML Tables</title>
+
+</head>
+<body>
+
+    <h1>Nested HTML Tables</h1>
+
+    <table>
+        <tr>
+            <td>
+                <!-- Nested Table with List -->
+                <table>
+                    <tr>
+                        <th>List Table</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Nested Table with Columns -->
+                <table>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>abc</td>
+                        <td>def</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Nested Table with Link -->
+                <table>
+                    <tr>
+                        <th><a href="#">Nested Table</a></th>
+                    </tr>
+                    <tr>
+                        <td>Demo Continued</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Nested Table with Highlighted Cell -->
+                <table>
+                    <tr>
+                        <th>Highlighted Table</th>
+                    </tr>
+                    <tr>
+                        <td class="black-bg">HTML</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
     </table>
-  </body>
+
+</body>
 </html>
